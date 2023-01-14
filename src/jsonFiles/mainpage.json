@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "image": "images/mainPage/dish-5.jpg",
+    "title": "Dishes",
+    "description": "Turning tomatoes into tuna, cashews into stretchy mozzarella, and banana peels into pulled “pork” is a creative culinary challenge that many vegans love to take on.",
+    "href": "#dishes",
+    "text": "View dishes menu"
+  },
+  {
+    "id": 2,
+    "image": "images/mainPage/drink-2.jpg",
+    "title": "Drinks",
+    "description": "We know how to completely transform veggies and fruits into something totally different. Here,  people can enjoy a meal that more closely resembles what others might be eating.",
+    "href": "#drinks",
+    "text": "View drinks menu"
+  },
+  {
+    "id": 3,
+    "image": "images/mainPage/dessert-5.jpg",
+    "title": "Desserts",
+    "description": "Taking these foods to get-togethers can also spark a conversation, which could encourage nonvegans to rethink their reliance on meat and other animal-derived products.",
+    "href": "#desserts",
+    "text": "View desserts menu"
+  }
+]
+

@@ -1,0 +1,17 @@
+/* Colors */
+:root {
+  --gray: #D8D1CB;
+  --light-gray: #EAE5E1;
+  --green-pine: #2F4449;
+  --brown: #8C6034;
+  --black: #131B1D;
+}
+
+/* Space */
+:root {
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 32px;
+}
+
+/* Media queries */

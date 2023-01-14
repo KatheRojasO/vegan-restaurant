@@ -1,0 +1,48 @@
+.option-img {
+    width: 182px;
+    height: 156.24px;
+    padding: 0;
+    margin: 30px 0 5px 37px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-option {
+    list-style-type: none;
+}
+
+.menu-option > a{
+    color: var(--brown);
+}
+
+.page-description {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.item1 {
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(-80%, 365%);
+    z-index: -1;
+}
+
+.item2 {
+    position: absolute;
+    transform: translate(230%, 340%);
+    z-index: -1;
+}
+
+.item3 {
+    position: absolute;
+    transform: translate(-49%, 455%);
+    z-index: -1;
+}
+
+.item4 {
+    position: absolute;
+    transform: translate(269%, 505%);
+    z-index: -1;
+}
+
+

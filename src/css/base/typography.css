@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+
+h1 {
+  font-family: 'WindSong', cursive;
+  color: white;
+  font-size: 36px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 4px 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--brown);
+}
+
+p {
+  font-size: 14px;
+  color: var(--brown);
+}
+
+a,
+button {
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
