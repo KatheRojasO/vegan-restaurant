@@ -1,7 +1,7 @@
 import { BrowserRouter, Switch, Routes, Route, Link } from "react-router-dom";
 import "../src/css/styles.css";
 import MainPage from "./pages/MainPage";
-import Dishes from "./pages/Dishes";
+import Category from "./pages/Category";
 
 export default function App() {
   return (
@@ -9,7 +9,9 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<MainPage />} />
-          <Route path='/dishes-menu' element={<Dishes />} />
+          <Route path='/dishes' element={<Category categoryName={"dishes"} />} />
+          <Route path='/drinks' element={<Category categoryName={"drinks"} />} />
+          <Route path='/desserts' element={<Category categoryName={"desserts"} />} />
         </Routes>
       </BrowserRouter>
     </div>

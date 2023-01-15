@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "href": "#dishes",
+    "href": "/dishes",
     "text": "Dishes"
   },
   {
     "id": 2,
-    "href": "#drinks",
+    "href": "/drinks",
     "text": "Drinks"
   },
   {
     "id": 3,
-    "href": "#desserts",
+    "href": "/desserts",
     "text": "Desserts"
   },
   {
     "id": 4,
-    "href": "#contact",
+    "href": "/contact",
     "text": "Contact"
   }
 ]

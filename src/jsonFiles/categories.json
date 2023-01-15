@@ -1,0 +1,112 @@
+{
+  "dishes": {
+    "title": "Dishes",
+    "image": "images/dishes/dishes-hero.jpg",
+    "description": "Turning tomatoes into tuna, cashews into stretchy mozzarella, and banana peels into pulled “pork” is a creative culinary challenge that many vegans love to take on.",
+    "alt": "category picture",
+    "options": [
+      {
+        "id": 1,
+        "image": "images/dishes/dish-1.jpg",
+        "alt": "Fried tofu",
+        "title": "Fried Tofu",
+        "description": "Fried chicken style tofu served with zucchini pasta."
+      },
+      {
+        "id": 2,
+        "image": "images/dishes/dish-2.jpg",
+        "alt": "Risotto",
+        "title": "Risotto",
+        "description": "Creamy and savory mushroom risotto."
+      },
+      {
+        "id": 3,
+        "image": "images/dishes/dish-5.jpg",
+        "alt": "Pumpkin Soup",
+        "title": "Pumpkin Soup",
+        "description": "Creamy pumpkin soup served with minced meat style tofu."
+      },
+      {
+        "id": 4,
+        "image": "images/dishes/dish-3.jpg",
+        "alt": "Strawberry Salad",
+        "title": "Strawberry Salad",
+        "description": "A refreshingly and delightfully strawberry salad."
+      }
+    ]
+  },
+
+  "drinks": {
+    "title": "Drinks",
+    "image": "images/drinks/drinks-hero.png",
+    "description": "We know how to transform veggies and fruits into something different. Here,  people can enjoy a meal that more closely resembles what others might be eating.",
+    "alt": "category picture",
+    "options": [
+      {
+        "id": 1,
+        "image": "images/drinks/drink-1.jpg",
+        "alt": "Mint-Cucumber Lemonade",
+        "title": "Mint-Cucumber Lemonade",
+        "description": "Great to relax after a log day working"
+      },
+      {
+        "id": 2,
+        "image": "images/drinks/drink-2.jpg",
+        "alt": "Fruit Infused Water",
+        "title": "Fruit Infused Water",
+        "description": "Your water doesn't have to be boring! It's so delicious, you won't even realize it's healthy."
+      },
+      {
+        "id": 3,
+        "image": "images/drinks/drink-3.jpg",
+        "alt": "Ginger Beer Mojito",
+        "title": "Ginger Beer Mojito",
+        "description": "But back up, you say. Ginger beer? In mojitos? Heck to the yes, We say."
+      },
+      {
+        "id": 4,
+        "image": "images/drinks/drink-4.jpg",
+        "alt": "Summer Breeze Cocktail",
+        "title": "Summer Breeze Cocktail",
+        "description": "If you like Tequila Sunrises you'll love this cocktail with a summer twist!"
+      }
+    ]
+  },
+
+  "desserts": {
+    "title": "Desserts",
+    "image": "images/dishes/dishes-hero.jpg",
+    "description": "Turning tomatoes into tuna, cashews into stretchy mozzarella, and banana peels into pulled “pork” is a creative culinary challenge that many vegans love to take on.",
+    "alt": "category picture",
+    "options": [
+      {
+        "id": 1,
+        "image": "images/dishes/dish-1.jpg",
+        "alt": "Fried tofu",
+        "title": "Fried Tofu",
+        "description": "Fried chicken style tofu served with zucchini pasta."
+      },
+      {
+        "id": 2,
+        "image": "images/dishes/dish-2.jpg",
+        "alt": "Risotto",
+        "title": "Risotto",
+        "description": "Creamy and savory mushroom risotto."
+      },
+      {
+        "id": 3,
+        "image": "images/dishes/dish-5.jpg",
+        "alt": "Pumpkin Soup",
+        "title": "Pumpkin Soup",
+        "description": "Creamy pumpkin soup served with minced meat style tofu."
+      },
+      {
+        "id": 4,
+        "image": "images/dishes/dish-3.jpg",
+        "alt": "Strawberry Salad",
+        "title": "Strawberry Salad",
+        "description": "A refreshingly and delightfully strawberry salad."
+      }
+    ]
+  }
+}
