@@ -1,48 +1,94 @@
 .option-img {
-    width: 182px;
-    height: 156.24px;
-    padding: 0;
-    margin: 30px 0 5px 37px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 182px;
+  height: 156.24px;
+  padding: 0;
+  margin: 30px 0 5px 37px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .menu-option {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.menu-option > a{
-    color: var(--brown);
+.menu-option > a {
+  color: var(--brown);
 }
 
 .page-description {
-    font-weight: bold;
-    margin-top: 30px;
+  font-weight: bold;
+  margin-top: 30px;
 }
 
 .item1 {
-    position: absolute;
-    top: 65%;
-    left: 60%;
-    transform: translate(-80%, 365%);
-    z-index: -1;
+  position: absolute;
+  transform: translate(80%, -50%);
+  z-index: -1;
 }
 
 .item2 {
-    position: absolute;
-    transform: translate(230%, 340%);
-    z-index: -1;
+  position: absolute;
+  transform: translate(230%, 340%);
+  z-index: -1;
 }
 
 .item3 {
-    position: absolute;
-    transform: translate(-49%, 455%);
-    z-index: -1;
+  position: absolute;
+  transform: translate(-49%, 455%);
+  z-index: -1;
 }
 
 .item4 {
-    position: absolute;
-    transform: translate(269%, 505%);
-    z-index: -1;
+  position: absolute;
+  transform: translate(269%, 505%);
+  z-index: -1;
 }
 
+/* Mobile M */
+@media screen and (min-width: 375px) {
+  .option-img {
+    width: 190px;
+    height: 164.24px;
+  }
 
+  .item1 {
+    transform: translate(80%, -70%);
+  }
+
+  .item2 {
+    transform: translate(260%, 320%);
+  }
+
+  .item4 {
+    transform: translate(300%, 505%);
+  }
+}
+
+/* Mobile L */
+@media screen and (min-width: 425px) {
+  .option-img {
+    width: 210px;
+    height: 184.24px;
+  }
+
+  .menu-option {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .menu-option > p{
+    padding-right: 70px;
+  }
+
+  .item1 {
+    transform: translate(80%, -70%);
+  }
+
+  .item2 {
+    transform: translate(260%, 320%);
+  }
+
+  .item4 {
+    transform: translate(300%, 505%);
+  }
+}

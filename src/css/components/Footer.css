@@ -25,3 +25,16 @@
     color: white;
     margin-left: 5px;
 }
+
+/* Mobile M */
+@media screen and (min-width: 375px) {
+    .social-media img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    
+    .copy-right {
+        margin-top: 10px;
+    }
+  }

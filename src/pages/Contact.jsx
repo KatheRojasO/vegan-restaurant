@@ -1,14 +1,17 @@
+import React from "react";
 import Header from "../components/Header";
 import Form from "../components/Form"
 import Footer from "../components/Footer";
 import data from "../jsonFiles/contact.json";
+import img1 from "../assets/img/background-image-1.png";
 
 export default function Contact() {
 
   const items = data.map((item) => (
     <div className="container">
       <div className="contact-info">
-        <img className="owner" src={item.image} alt={item.alt}></img>
+        <img className="owner" src={item.image} alt={item.alt}/>
+        <img className="bg-img" src={img1} alt="bg-1"/>
         <h2>Opening Times</h2>
         <p>{item.times}</p>
         <h2>Book a table</h2>

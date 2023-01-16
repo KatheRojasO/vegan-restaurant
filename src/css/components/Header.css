@@ -39,6 +39,20 @@ ul.menu {
   color: var(--gray);
 }
 
+/* Mobile M */
+
+@media screen and (min-width: 375px) {
+  nav {
+    justify-content: space-between;
+  }
+
+  ul.menu {
+    margin: 0 var(--space-medium) 0 0;
+  }
+  
+}
+
+
 
 
 

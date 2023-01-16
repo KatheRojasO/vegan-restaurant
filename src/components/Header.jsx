@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {Link as ScrollLink} from 'react-scroll';
-import {Link as ReactLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 import img from "../assets/img/logo-mobile.png";
 import data from "../jsonFiles/navbar.json";
 
@@ -8,7 +7,7 @@ export default function Header() {
 
   const items = data.map((item) => (
     <li className="nav-item" key={item.id}>
-      <ReactLink to={item.href}>{item.text}</ReactLink>
+      <Link to={item.href}>{item.text}</Link>
     </li>
   ));
 
@@ -24,9 +23,9 @@ export default function Header() {
 
   return (
     <nav className={`nav ${ small ? "small" : ""}`}>
-      <ScrollLink to='hero'>
+      <Link to='/'>
         <img src={img} alt="NV-logo"></img>
-      </ScrollLink>
+      </Link>
       <ul className="menu">{items}</ul>
     </nav>
   );
