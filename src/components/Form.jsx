@@ -13,7 +13,16 @@ export default function Form() {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(inputs);
-    alert(inputs.clientName + inputs.email + inputs.date + inputs.time);
+    alert(
+      inputs.clientName +
+        " " +
+        "has booked a table for" +
+        " " +
+        inputs.date +
+        " " +
+        "at" +
+        inputs.time
+    );
   };
 
   const inputItem = data.map((item) => (

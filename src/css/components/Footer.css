@@ -1,40 +1,40 @@
 #footer {
-    background-color: var(--black);
+  background-color: var(--black);
 }
 
 .social-media,
 .copy-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-media img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .copy-right img {
-    width: 10px;
-    height: 10px;
+  width: 10px;
+  height: 10px;
 }
 
 .copy-right p {
-    font-size: 10px;
-    color: white;
-    margin-left: 5px;
+  font-size: 10px;
+  color: white;
+  margin-left: 5px;
 }
 
 /* Mobile M */
 @media screen and (min-width: 375px) {
-    .social-media img {
-        width: 30px;
-        height: 30px;
-        margin-right: 10px;
-    }
-    
-    .copy-right {
-        margin-top: 10px;
-    }
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
   }
+
+  .copy-right {
+    margin-top: 10px;
+  }
+}

@@ -4,7 +4,6 @@ import fbIcon from "../assets/icons/fb-icon.png";
 import copyIcon from "../assets/icons/copyright_icon.png";
 
 export default function Footer() {
-
   return (
     <footer id="footer">
       <div className="container">

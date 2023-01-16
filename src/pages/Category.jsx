@@ -4,8 +4,7 @@ import Footer from "../components/Footer";
 import data from "../jsonFiles/categories.json";
 import CategoryInfo from "../components/CategoryInfo";
 
-export default function Category( { categoryName } ) { 
-
+export default function Category({ categoryName }) {
   const categoryInfo = data[`${categoryName}`];
 
   return (

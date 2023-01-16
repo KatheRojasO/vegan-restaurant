@@ -21,7 +21,7 @@ ul.menu {
   display: flex;
 }
 
-.nav-item > a{
+.nav-item > a {
   margin-right: 5px;
   text-decoration: none;
   cursor: pointer;
@@ -29,12 +29,12 @@ ul.menu {
 }
 
 .nav-item > a:link,
-.nav-item > a:active  {
+.nav-item > a:active {
   color: var(--gray);
 }
 
 .nav-item > a:focus,
-.nav-item > a:hover  {
+.nav-item > a:hover {
   border-bottom: 1px solid;
   color: var(--gray);
 }
@@ -49,10 +49,4 @@ ul.menu {
   ul.menu {
     margin: 0 var(--space-medium) 0 0;
   }
-  
 }
-
-
-
-
-

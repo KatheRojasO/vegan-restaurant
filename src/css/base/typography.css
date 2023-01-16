@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap");
 
 h1 {
-  font-family: 'WindSong', cursive;
+  font-family: "WindSong", cursive;
   color: white;
   font-size: 36px;
 }
@@ -26,14 +26,14 @@ p {
 
 a,
 button {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-weight: bold;
   font-size: 14px;
   color: white;
 }
 
 input {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-weight: bold;
   font-size: 14px;
   color: gray;

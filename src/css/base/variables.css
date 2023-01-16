@@ -1,10 +1,10 @@
 /* Colors */
 :root {
-  --gray: #D8D1CB;
-  --light-gray: #EAE5E1;
-  --green-pine: #2F4449;
-  --brown: #8C6034;
-  --black: #131B1D;
+  --gray: #d8d1cb;
+  --light-gray: #eae5e1;
+  --green-pine: #2f4449;
+  --brown: #8c6034;
+  --black: #131b1d;
 }
 
 /* Space */
@@ -21,5 +21,4 @@
   :root {
     --space-big: 50px;
   }
-  
 }

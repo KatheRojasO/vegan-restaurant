@@ -4,15 +4,14 @@ import img2 from "../assets/img/background-image-2.png";
 import img3 from "../assets/img/background-image-3.png";
 import img4 from "../assets/img/background-image-4.png";
 
-export default function CategoryInfo ({ categoryInfo }) {
-  
+export default function CategoryInfo({ categoryInfo }) {
   const { title, description, image, alt, options } = categoryInfo;
 
-  const items = options.map((item) => (
-    <li className="category-option" key={item.id}>
-      <img className="menu-img" src={item.image} alt={item.alt}></img>
-      <h2>{item.title}</h2>
-      <p>{item.description}</p>
+  const menuItems = options.map((menuItem) => (
+    <li className="category-option" key={menuItem.id}>
+      <img className="menu-img" src={menuItem.image} alt={menuItem.alt}></img>
+      <h2>{menuItem.title}</h2>
+      <p>{menuItem.description}</p>
     </li>
   ));
 
@@ -28,7 +27,7 @@ export default function CategoryInfo ({ categoryInfo }) {
         <img src={img2} className="bg-2" alt="" />
         <img src={img3} className="bg-3" alt="" />
         <img src={img4} className="bg-4" alt="" />
-        {items}
+        {menuItems}
       </div>
     </div>
   );

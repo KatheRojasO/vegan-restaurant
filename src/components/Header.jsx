@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import img from "../assets/img/logo-mobile.png";
 import data from "../jsonFiles/navbar.json";
 
 export default function Header() {
-
   const items = data.map((item) => (
     <li className="nav-item" key={item.id}>
       <Link to={item.href}>{item.text}</Link>
@@ -22,8 +21,8 @@ export default function Header() {
   }, []);
 
   return (
-    <nav className={`nav ${ small ? "small" : ""}`}>
-      <Link to='/'>
+    <nav className={`nav ${small ? "small" : ""}`}>
+      <Link to="/">
         <img src={img} alt="NV-logo"></img>
       </Link>
       <ul className="menu">{items}</ul>
