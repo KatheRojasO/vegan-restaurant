@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import data from "../jsonFiles/form.json";
 
 export default function Form() {
   const [inputs, setInputs] = useState({});
@@ -12,38 +13,25 @@ export default function Form() {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(inputs);
-    alert(inputs.username + inputs.email + inputs.date + inputs.time);
+    alert(inputs.clientName + inputs.email + inputs.date + inputs.time);
   };
+
+  const inputItem = data.map((item) => (
+    <li className="input-fields" key={item.id}>
+      <input
+        type={item.type}
+        name={item.name}
+        placeholder={item.placeholder}
+        value={inputs.name}
+        onChange={handleChange}
+      />
+    </li>
+  ));
 
   return (
     <div id="form">
       <form className="form-info" onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="username"
-          placeholder="Full name"
-          value={inputs.username || ""}
-          onChange={handleChange}
-        />
-        <input
-          type="text"
-          name="email"
-          placeholder="Email"
-          value={inputs.email || ""}
-          onChange={handleChange}
-        />
-        <input
-          type="date"
-          name="date"
-          value={inputs.date || ""}
-          onChange={handleChange}
-        />
-        <input
-          type="time"
-          name="time"
-          value={inputs.time || ""}
-          onChange={handleChange}
-        />
+        {inputItem}
         <input type="submit" value="Book a table" />
       </form>
     </div>

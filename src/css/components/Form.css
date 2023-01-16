@@ -6,7 +6,7 @@
 .form-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 input[type="text"],
@@ -15,7 +15,6 @@ input[type="text"],
   width: 80%;
   padding: 5px 0;
   margin: 8px 25px;
-  display: inline-block;
   box-sizing: border-box;
   background-color: var(--gray);
   outline: 0;
@@ -30,9 +29,21 @@ input[type="time"]:focus {
 }
 
 input[type="submit"] {
+  width: 50%;
   background-color: var(--green-pine);
   color: white;
-  padding: 5px 10px;
-  margin: var(--space-small) 0 var(--space-medium) 0;
+  padding: 10px 10px;
+  margin: var(--space-small) 0 var(--space-medium) 60px;
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
+
+input[type="submit"]:focus {
+  background-color: green;
+}
+
+.input-fields {
+  list-style-type: none;
+}
+
