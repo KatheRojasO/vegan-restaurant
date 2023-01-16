@@ -5,6 +5,7 @@ import img3 from "../assets/img/background-image-3.png";
 import img4 from "../assets/img/background-image-4.png";
 
 export default function CategoryInfo ({ categoryInfo }) {
+  
   const { title, description, image, alt, options } = categoryInfo;
 
   const items = options.map((item) => (

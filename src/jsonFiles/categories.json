@@ -75,37 +75,37 @@
 
   "desserts": {
     "title": "Desserts",
-    "image": "images/dishes/dishes-hero.jpg",
-    "description": "Turning tomatoes into tuna, cashews into stretchy mozzarella, and banana peels into pulled “pork” is a creative culinary challenge that many vegans love to take on.",
+    "image": "images/desserts/desserts-hero.jpg",
+    "description": "Taking these foods to get-togethers can also spark a conversation, which could encourage nonvegans to rethink their reliance on meat and other animal-derived products.",
     "alt": "category picture",
     "options": [
       {
         "id": 1,
-        "image": "images/dishes/dish-1.jpg",
-        "alt": "Fried tofu",
-        "title": "Fried Tofu",
-        "description": "Fried chicken style tofu served with zucchini pasta."
+        "image": "images/desserts/dessert-1.jpg",
+        "alt": "Brownie with icecream",
+        "title": "Brownie with icecream",
+        "description": "Warm and fudgy with premium vanilla ice-cream melting on top, this nutty brownie is chocolate heaven."
       },
       {
         "id": 2,
-        "image": "images/dishes/dish-2.jpg",
-        "alt": "Risotto",
-        "title": "Risotto",
-        "description": "Creamy and savory mushroom risotto."
+        "image": "images/desserts/dessert-2.jpg",
+        "alt": "Caramel cheescake",
+        "title": "Caramel Cheescake",
+        "description": "It's rich and creamy and topped with a salted caramel fudge sauce. So much like the 'real thing' you will hardly believe it."
       },
       {
         "id": 3,
-        "image": "images/dishes/dish-5.jpg",
-        "alt": "Pumpkin Soup",
-        "title": "Pumpkin Soup",
-        "description": "Creamy pumpkin soup served with minced meat style tofu."
+        "image": "images/desserts/dessert-3.jpg",
+        "alt": "Chocolate Volcano",
+        "title": "Chocolate Volcano",
+        "description": "This is a delicious vegan-friendly version of the classic chocolate lava cake."
       },
       {
         "id": 4,
-        "image": "images/dishes/dish-3.jpg",
-        "alt": "Strawberry Salad",
-        "title": "Strawberry Salad",
-        "description": "A refreshingly and delightfully strawberry salad."
+        "image": "images/desserts/dessert-4.jpg",
+        "alt": "Coconut Cheesecake",
+        "title": "Coconut Cheescake",
+        "description": "It's smooth, rich and creamy but also light in texture."
       }
     ]
   }

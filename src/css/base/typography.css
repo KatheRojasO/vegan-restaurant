@@ -31,3 +31,10 @@ button {
   font-size: 14px;
   color: white;
 }
+
+input {
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: gray;
+}

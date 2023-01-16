@@ -4,8 +4,9 @@
 }
 
 .category-hero > h1 {
-    position: absolute;   
-    transform: translate(80%, 330%);  
+    position: absolute; 
+    left: 50%;  
+    transform: translate(-50%, 330%);  
 }
 
 .category-hero > img {

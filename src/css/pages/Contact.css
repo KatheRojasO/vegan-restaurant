@@ -1,0 +1,22 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info .owner {
+    width: 200px;
+    height: 210px;
+    margin: 40px 0 0 20px;
+}
+
+.contact-info .map {
+    width: 250px;
+    height: 210px;
+    margin: 20px 0 0 10px;
+}
+
+.contact-info > h2 {
+    margin-top: 20px;
+}
+
