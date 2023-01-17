@@ -10,11 +10,13 @@ import img4 from "../assets/img/background-image-4.png";
 
 export default function MainPage() {
   const items = data.map((item) => (
-    <li className="menu-option" key={item.id}>
-      <img className="option-img" src={item.image} alt="menu-option"></img>
-      <h2>{item.title}</h2>
-      <p>{item.description}</p>
-      <a href={item.href}>{item.text}</a>
+    <li className={item.invert ?  "menu-option-right" : "menu-option-left"} key={item.id}>
+      <img className="option-img" src={item.image} alt="menu-option"/>
+      <div className="option-description">
+        <h2>{item.title}</h2>
+        <p>{item.description}</p>
+        <a href={item.href}>{item.text}</a>
+      </div> 
     </li>
   ));
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import img from "../assets/img/logo-mobile.png";
+import img from "../assets/img/logo.png";
 import data from "../jsonFiles/navbar.json";
 
 export default function Header() {

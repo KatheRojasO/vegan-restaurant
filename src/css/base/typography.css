@@ -41,22 +41,36 @@ input {
   color: gray;
 }
 
-/* Mobile L */
-@media screen and (min-width: 425px) {
+/* Mobile M */
+@media screen and (min-width: 375px) {
   h1 {
     font-size: 40px;
   }
+}
 
-  p {
-    font-size: 18px;
-  }
 
+/* Mobile L */
+@media screen and (min-width: 425px) {
   h2 {
     font-size: 24px;
   }
 
+  p,
   a,
-  button {
+  button,
+  input {
     font-size: 18px;
+  }
+}
+
+/* tablets */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2
+  {
+    margin-top: 20px;
   }
 }

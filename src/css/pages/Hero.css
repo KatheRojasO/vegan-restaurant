@@ -17,9 +17,23 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-80%, 330%);
+}
+
+.title-1 {
+  transform: translate(-80%, 350%);
 }
 
 .title-2 {
-  transform: translate(-20%, 400%);
+  transform: translate(-20%, 420%);
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .title-1 {
+    transform: translate(-80%, 220%);
+  }
+
+  .title-2 {
+    transform: translate(-20%, 290%);
+  }
 }
