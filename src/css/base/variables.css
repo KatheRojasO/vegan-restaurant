@@ -22,3 +22,10 @@
     --space-big: 50px;
   }
 }
+
+/* Mobile L */
+@media screen and (min-width: 425px) {
+  :root {
+    --space-big: 70px;
+  }
+}

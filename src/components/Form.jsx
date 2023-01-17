@@ -12,7 +12,6 @@ export default function Form() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(inputs);
     alert(
       inputs.clientName +
         " " +
@@ -21,6 +20,7 @@ export default function Form() {
         inputs.date +
         " " +
         "at" +
+        " " +
         inputs.time
     );
   };

@@ -14,6 +14,16 @@ body {
   padding: var(--space-small);
 }
 
-.container {
+.container,
+.container-footer {
   padding: var(--space-big);
 }
+
+/* Mobile M */
+@media screen and (min-width: 375px) {
+  .container-footer {
+    padding: 32px;
+  }
+}
+
+

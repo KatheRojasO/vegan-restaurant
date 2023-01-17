@@ -6,7 +6,7 @@ import copyIcon from "../assets/icons/copyright_icon.png";
 export default function Footer() {
   return (
     <footer id="footer">
-      <div className="container">
+      <div className="container-footer">
         <div className="social-media">
           <img src={instagramIcon} alt="instagram-icon" />
           <img src={fbIcon} alt="instagram-icon" />
