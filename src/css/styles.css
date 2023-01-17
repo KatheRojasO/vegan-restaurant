@@ -6,9 +6,9 @@
 /* Components */
 @import './components/Header.css';
 @import './pages/Hero.css';
-@import './components/MainPage.css';
+@import './pages/MainPage.css';
 @import './components/Footer.css';
-@import './pages/Category.css';
+@import './pages/CategoryInfo.css';
 @import './pages/Contact.css';
 @import './components/Form.css';
 

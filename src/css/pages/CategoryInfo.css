@@ -22,6 +22,7 @@
 .category-option > h2,
 .category-option > p {
   padding: 0 35px 0 35px;
+  text-align: left;
 }
 
 .category-option > img {
@@ -35,28 +36,31 @@
 .category-description {
   font-weight: bold;
   padding-top: 30px;
+  text-align: center;
 }
 
-.bg-1,
-.bg-2,
-.bg-3,
-.bg-4 {
-  position: absolute;
-  z-index: -1;
+/* Mobile M */
+@media screen and (min-width: 375px) {
+  .category-option > img {
+    width: 190px;
+    height: 164.24px;
+  }
+
+  .category-option > h2,
+  .category-option > p {
+    padding: 0 40px 0 40px;
+  }
 }
 
-.bg-1 {
-  transform: translate(80%, -50%);
-}
+/* Mobile L */
+@media screen and (min-width: 425px) {
+  .category-option > img {
+    width: 200px;
+    height: 195px;
+  }
 
-.bg-2 {
-  transform: translate(230%, 250%);
-}
-
-.bg-3 {
-  transform: translate(-49%, 455%);
-}
-
-.bg-4 {
-  transform: translate(269%, 505%);
+  .category-option > h2,
+  .category-option > p {
+    padding: 0 35px 0 35px;
+  }
 }
