@@ -161,6 +161,33 @@
   }
 }
 
+/* Laptop small*/
+@media screen and (min-width: 1024px) {
+  .bg-1 {
+    width: 170px;
+    height: 100px;
+    transform: translate(200%, -85%);
+  }
+
+  .bg-2 {
+    width: 170px;
+    height: 169px;
+    transform: translate(410%, 150%);
+  }
+
+  .bg-3 {
+    width: 130px;
+    height: 188px;
+    transform: translate(-70%, 300%);
+  }
+
+  .bg-4 {
+    width: 138px;
+    height: 223px;
+    transform: translate(540%, 380%);
+  }
+}
+
 
 
 
