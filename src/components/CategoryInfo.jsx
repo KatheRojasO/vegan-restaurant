@@ -10,8 +10,10 @@ export default function CategoryInfo({ categoryInfo }) {
   const menuItems = options.map((menuItem) => (
     <li className="category-option" key={menuItem.id}>
       <img className="menu-img" src={menuItem.image} alt={menuItem.alt}></img>
-      <h2>{menuItem.title}</h2>
-      <p>{menuItem.description}</p>
+      <div className="description">
+        <h2>{menuItem.title}</h2>
+        <p>{menuItem.description}</p>
+      </div>
     </li>
   ));
 

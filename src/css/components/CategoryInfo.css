@@ -19,8 +19,8 @@
   list-style-type: none;
 }
 
-.category-option > h2,
-.category-option > p {
+.category-option .description > h2,
+.category-option .description .description > p {
   padding: 0 35px 0 35px;
   text-align: left;
 }
@@ -46,8 +46,8 @@
     height: 164.24px;
   }
 
-  .category-option > h2,
-  .category-option > p {
+  .category-option .description > h2,
+  .category-option .description > p {
     padding: 0 40px 0 40px;
   }
 }
@@ -59,8 +59,27 @@
     height: 195px;
   }
 
-  .category-option > h2,
-  .category-option > p {
+  .category-option .description > h2,
+  .category-option .description > p {
     padding: 0 35px 0 35px;
   }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+  .category-option > img {
+    width: 250px;
+    height: 245px;
+  }
+
+  .category-option {
+    display: flex;
+    align-items: center;
+  }
+
+  .category-hero > h1 {
+    transform: translate(-50%, 220%);
+  }
+
+  
 }

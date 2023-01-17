@@ -145,19 +145,19 @@
   .bg-2 {
     width: 150px;
     height: 149px;
-    transform: translate(360%, 200%);
+    transform: translate(360%, 210%);
   }
 
   .bg-3 {
     width: 110px;
     height: 168px;
-    transform: translate(-60%, 290%);
+    transform: translate(-60%, 340%);
   }
 
   .bg-4 {
     width: 108px;
     height: 193px;
-    transform: translate(540%, 330%);
+    transform: translate(540%, 450%);
   }
 }
 
