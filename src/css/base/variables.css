@@ -43,3 +43,31 @@
     --space-big: 110px;
   }
 }
+
+/* Laptop small */
+@media screen and (min-width: 1024px) {
+  :root {
+    --space-big: 150px;
+  }
+}
+
+/* Laptop medium */
+@media screen and (min-width: 1280px) {
+  :root {
+    --space-big: 250px;
+  }
+}
+
+/* Laptop large */
+@media screen and (min-width: 1440px) {
+  :root {
+    --space-big: 350px;
+  }
+}
+
+/* Laptop extra large */
+@media screen and (min-width: 1920px) {
+  :root {
+    --space-big: 550px;
+  }
+}

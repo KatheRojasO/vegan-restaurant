@@ -20,8 +20,8 @@
 }
 
 .category-option .description > h2,
-.category-option .description .description > p {
-  padding: 0 35px 0 35px;
+.category-option .description > p {
+  padding: 5px 35px 0 35px;
   text-align: left;
 }
 
@@ -79,7 +79,18 @@
 
   .category-hero > h1 {
     transform: translate(-50%, 220%);
-  }
+  }  
+}
 
+/* Laptop small */
+@media screen and (min-width: 1024px) {
+  .category-option {
+    padding: 0 40px 0 40px;
+  }
+}
+
+/* Laptop medium */
+@media screen and (min-width: 1280px) {
   
 }
+
