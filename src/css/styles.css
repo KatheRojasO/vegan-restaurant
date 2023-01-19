@@ -1,16 +1,14 @@
 /* Base */
-@import './base/layout.css';
-@import './base/typography.css';
-@import './base/variables.css';
+@import "./base/layout.css";
+@import "./base/typography.css";
+@import "./base/variables.css";
 
 /* Components */
-@import './components/Header.css';
-@import './pages/Hero.css';
-@import './pages/MainPage.css';
-@import './components/Footer.css';
-@import './components/CategoryInfo.css';
-@import './pages/Contact.css';
-@import './components/Form.css';
-@import './components/ProductInfo.css';
-
-
+@import "./components/Header.css";
+@import "./pages/Hero.css";
+@import "./pages/MainPage.css";
+@import "./components/Footer.css";
+@import "./components/CategoryInfo.css";
+@import "./pages/Contact.css";
+@import "./components/Form.css";
+@import "./components/ProductInfo.css";

@@ -26,7 +26,6 @@ body {
   padding: 50px var(--space-big) 50px var(--space-big);
 }
 
-
 .product-hero {
   padding: 90px var(--space-big) 0 var(--space-big);
 }
@@ -64,7 +63,7 @@ body {
 }
 
 /* Mobile M */
-@media screen and (min-width: 375px) {  
+@media screen and (min-width: 375px) {
   .container-footer {
     padding: 32px;
   }
@@ -127,12 +126,12 @@ body {
 
   .product-container {
     padding: 10px 200px 30px 200px;
-  } 
+  }
 
   .container {
     padding: 90px var(--space-big) 100px var(--space-big);
   }
-  
+
   .bg-1 {
     width: 150px;
     height: 80px;
@@ -159,10 +158,10 @@ body {
 }
 
 /* Laptop small*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .product-container {
     padding: 10px 300px 30px 300px;
-  } 
+  }
 
   .container {
     padding: 150px var(--space-big) 100px var(--space-big);
@@ -217,7 +216,7 @@ body {
 }
 
 /* Laptop Big*/
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
   .product-container {
     padding: 10px 550px 30px 550px;
   }
@@ -226,10 +225,3 @@ body {
     padding: 150px var(--space-big) 100px var(--space-big);
   }
 }
-
-
-
-
-
-
-

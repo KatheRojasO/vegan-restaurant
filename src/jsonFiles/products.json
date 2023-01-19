@@ -51,7 +51,12 @@
       "alt": "Strawberry Salad",
       "name": "Fried Tofu",
       "description": "A delightfully unexpected salad quick marinated in maple syrup and citrus, and married with strawberries, peaches and fresh herbs, making this a lovely sweet-tart combo.",
-      "ingredients": ["Strawberries", "Lemon juice and orange", "Peaches", "Basil leaves"],
+      "ingredients": [
+        "Strawberries",
+        "Lemon juice and orange",
+        "Peaches",
+        "Basil leaves"
+      ],
       "facts": {
         "calories": "222 kcal",
         "fat": "10 gr",

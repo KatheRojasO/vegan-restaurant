@@ -41,7 +41,8 @@ input {
   color: gray;
 }
 
-td, li {
+td,
+li {
   color: var(--brown);
   font-size: 14px;
 }
@@ -52,7 +53,6 @@ td, li {
     font-size: 40px;
   }
 }
-
 
 /* Mobile L */
 @media screen and (min-width: 425px) {

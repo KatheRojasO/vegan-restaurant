@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function ProductInfo({ product }) {
+  const navigate = useNavigate();
+
   const ingredientList = product.ingredients.map((ingredient) => (
     <li className="ingredient-list">{ingredient}</li>
   ));
@@ -32,6 +35,7 @@ export default function ProductInfo({ product }) {
             <td className="product-facts">Protein {product.facts.protein}</td>
           </tr>
         </table>
+        <button onClick={() => navigate(-1)}>Go back</button>
       </div>
     </div>
   );

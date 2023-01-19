@@ -4,21 +4,18 @@
     "type": "text",
     "name": "clientName",
     "placeholder": "Full name"
-    
   },
   {
     "id": 2,
     "type": "text",
     "name": "email",
     "placeholder": "Email"
-    
   },
   {
     "id": 3,
     "type": "date",
     "name": "date",
     "placeholder": "date"
-    
   },
   {
     "id": 4,

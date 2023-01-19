@@ -79,7 +79,7 @@
 
   .category-hero > h1 {
     transform: translate(-50%, 220%);
-  }  
+  }
 }
 
 /* Laptop small */
@@ -91,6 +91,4 @@
 
 /* Laptop medium */
 @media screen and (min-width: 1280px) {
-  
 }
-

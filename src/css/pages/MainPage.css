@@ -21,7 +21,6 @@
   text-align: center;
 }
 
-
 /* Mobile M */
 @media screen and (min-width: 375px) {
   .option-img {
@@ -45,9 +44,9 @@
     height: 250px;
   }
 
-  .menu-option-left{
+  .menu-option-left {
     display: flex;
-    align-items: center; 
+    align-items: center;
   }
 
   .menu-option-right {
@@ -62,23 +61,17 @@
 }
 
 /* Laptop small*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .menu-option-left,
   .menu-option-right {
-    padding: 0 40px 0 40px; 
+    padding: 0 40px 0 40px;
   }
 }
 
 /* Laptop medium */
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
   .menu-option-left,
   .menu-option-right {
-    padding: 0 70px 0 70px; 
+    padding: 0 70px 0 70px;
   }
 }
-
-
-
-
-
-
