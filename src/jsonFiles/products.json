@@ -1,0 +1,67 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "image": "/images/dishes/dish-1.jpg",
+      "alt": "Fried tofu",
+      "name": "Fried Tofu",
+      "description": "This crispy panko fried tofu served with sweet Sukiyaki sauce is soft on the inside and crispy on the outside, this dish is simply irresistible!",
+      "ingredients": ["Tofu", "Almond milk", "Ground cumin", "Brown sugar"],
+      "facts": {
+        "calories": "552 kcal",
+        "fat": "28 gr",
+        "protein": "21 gr",
+        "carbohydrate": "53 gr",
+        "sugar": "19 gr"
+      }
+    }
+  ],
+
+  "drinks": [
+    {
+      "id": 1,
+      "image": "/images/drinks/drink-1.jpg",
+      "alt": "Mint-Cucumber Lemonade",
+      "name": "Mint-Cucumber Lemonade",
+      "description": "Minty Cucumber Lemonade made with only a handful of ingredients - cool, refreshing and delicious!",
+      "ingredients": [
+        "Cucumber",
+        "Mint leaves",
+        "Lemon Juice",
+        "Honey",
+        "Sparkling water"
+      ],
+      "facts": {
+        "calories": "104 kcal",
+        "fat": "0 gr",
+        "protein": "0 gr",
+        "carbohydrate": "26 gr",
+        "sugar": "20 gr"
+      }
+    }
+  ],
+
+  "desserts": [
+    {
+      "id": 1,
+      "image": "/images/desserts/dessert-1.jpg",
+      "alt": "Brownie with icecream",
+      "name": "Brownie with icecream",
+      "description": "Warm and fudgy with premium vanilla ice-cream melting on top, this nutty brownie is chocolate heaven.",
+      "ingredients": [
+        "Oat milk",
+        "Coconut sugar",
+        "Vegan chocolate",
+        "Cocoa powder",
+        "Vegan brownies"
+      ],
+      "facts": {
+        "calories": "150 kcal",
+        "fat": "10 gr",
+        "protein": "20 gr",
+        "carbohydrate": "30 gr",
+        "sugar": "10 gr"
+      }
+    }
+  ]
+}

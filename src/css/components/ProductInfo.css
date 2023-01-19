@@ -1,0 +1,30 @@
+.product {
+    background-color: var(--light-gray);
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-title,
+.product-text,
+.ingredient-list {
+    text-align: center;
+}
+
+.product-title {
+    margin: 10px 0 10px 0;
+}
+
+.ingredient-list {
+    list-style-type: none;
+    color: var(--brown);
+}
+
+.product-facts {
+    border-bottom: 1px solid var(--brown);
+}
+
+.facts-table {
+    margin: 10px 60px 0 60px;
+}
