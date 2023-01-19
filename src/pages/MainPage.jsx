@@ -9,7 +9,7 @@ import img3 from "../assets/img/background-image-3.png";
 import img4 from "../assets/img/background-image-4.png";
 
 export default function MainPage() {
-  const items = data.map((item) => (
+  const items = data.categories.map((item) => (
     <li className={item.invert ?  "menu-option-right" : "menu-option-left"} key={item.id}>
       <img className="option-img" src={item.image} alt="menu-option"/>
       <div className="option-description">
@@ -30,9 +30,7 @@ export default function MainPage() {
         <img src={img3} className="bg-3" alt="" />
         <img src={img4} className="bg-4" alt="" />
         <p className="page-description">
-          A refreshingly inviting, communal and upbeat restaurant featuring
-          seasonally and creative vegan cuisine that resembles what other might
-          be eating.
+        {data.description}
         </p>
         {items}
       </div>

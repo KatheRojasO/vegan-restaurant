@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Meddon&family=Noto+Serif&display=swap");
 
-
 html {
   background-color: var(--gray);
   font-family: "Noto Serif", serif;
@@ -19,8 +18,17 @@ body {
   padding: var(--space-big);
 }
 
+.product-container {
+  padding: 10px var(--space-big) 30px var(--space-big);
+}
+
 .container-footer {
   padding: 50px var(--space-big) 50px var(--space-big);
+}
+
+
+.product-hero {
+  padding: 90px var(--space-big) 0 var(--space-big);
 }
 
 .bg-1,
@@ -56,7 +64,7 @@ body {
 }
 
 /* Mobile M */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {  
   .container-footer {
     padding: 32px;
   }
@@ -113,10 +121,22 @@ body {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  .product-hero {
+    padding: 120px var(--space-big) 0 var(--space-big);
+  }
+
+  .product-container {
+    padding: 10px 200px 30px 200px;
+  } 
+
+  .container {
+    padding: 90px var(--space-big) 100px var(--space-big);
+  }
+  
   .bg-1 {
     width: 150px;
     height: 80px;
-    transform: translate(150%, -90%);
+    transform: translate(140%, -90%);
   }
 
   .bg-2 {
@@ -140,6 +160,10 @@ body {
 
 /* Laptop small*/
 @media screen and (min-width: 1024px){
+  .product-container {
+    padding: 10px 300px 30px 300px;
+  } 
+
   .container {
     padding: 150px var(--space-big) 100px var(--space-big);
   }
@@ -153,30 +177,34 @@ body {
   .bg-2 {
     width: 170px;
     height: 169px;
-    transform: translate(320%, 150%);
+    transform: translate(380%, 150%);
   }
 
   .bg-3 {
     width: 130px;
     height: 188px;
-    transform: translate(-60%, 270%);
+    transform: translate(-40%, 270%);
   }
 
   .bg-4 {
     width: 120px;
     height: 223px;
-    transform: translate(490%, 380%);
+    transform: translate(550%, 350%);
   }
 }
 
 /* Laptop medium*/
 @media screen and (min-width: 1280px) {
+  .product-container {
+    padding: 10px 450px 30px 450px;
+  }
+
   .bg-1 {
     transform: translate(190%, -105%);
   }
 
   .bg-2 {
-    transform: translate(370%, 150%);
+    transform: translate(400%, 150%);
   }
 
   .bg-3 {
@@ -184,22 +212,18 @@ body {
   }
 
   .bg-4 {
-    transform: translate(540%, 380%);
+    transform: translate(570%, 350%);
   }
 }
 
 /* Laptop Big*/
-@media screen and (min-width: 1920px){
+@media screen and (min-width: 1440px){
+  .product-container {
+    padding: 10px 550px 30px 550px;
+  }
+
   .container {
     padding: 150px var(--space-big) 100px var(--space-big);
-  }
-
-  .bg-2 {
-    transform: translate(390%, 150%);
-  }
-
-  .bg-4 {
-    transform: translate(600%, 380%);
   }
 }
 

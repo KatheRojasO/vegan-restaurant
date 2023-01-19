@@ -5,12 +5,13 @@ import data from "../jsonFiles/categories.json";
 import CategoryInfo from "../components/CategoryInfo";
 
 export default function Category({ categoryName }) {
+
   const categoryInfo = data[`${categoryName}`];
 
   return (
     <div id="category">
       <Header />
-      <CategoryInfo categoryInfo={categoryInfo} />
+      <CategoryInfo categoryInfo={categoryInfo} categoryName={categoryName}/>
       <Footer />
     </div>
   );

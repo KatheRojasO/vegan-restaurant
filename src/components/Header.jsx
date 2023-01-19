@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import img from "../assets/img/logo.png";
 import data from "../jsonFiles/navbar.json";
@@ -10,18 +10,8 @@ export default function Header() {
     </li>
   ));
 
-  const [small, setSmall] = useState(false);
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", () =>
-        setSmall(window.pageYOffset > 50)
-      );
-    }
-  }, []);
-
-  return (
-    <nav className={`nav ${small ? "small" : ""}`}>
+    return (
+    <nav>
       <Link to="/">
         <img src={img} alt="NV-logo"></img>
       </Link>

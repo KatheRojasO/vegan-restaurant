@@ -14,6 +14,51 @@
         "carbohydrate": "53 gr",
         "sugar": "19 gr"
       }
+    },
+    {
+      "id": 2,
+      "image": "/images/dishes/dish-2.jpg",
+      "alt": "Risotto",
+      "name": "Risotto",
+      "description": "The best vegan mushroom risotto you'll ever try! Creamy, velvety, and bursting with savory goodness, it's just like classic risotto but dairy-free and vegan. Includes tips to help you nail the perfect vegan risotto every time.",
+      "ingredients": ["Mushrooms", "Rice", "White wine", "Vegan butter"],
+      "facts": {
+        "calories": "460 kcal",
+        "fat": "14 gr",
+        "protein": "9 gr",
+        "carbohydrate": "70 gr",
+        "sugar": "5 gr"
+      }
+    },
+    {
+      "id": 3,
+      "image": "/images/dishes/dish-5.jpg",
+      "alt": "Pumpking soup",
+      "name": "Pumpking soup",
+      "description": "It's creamy, and layered with winter squash, warm and spicy aromatics, and bold spices and herbs. Quite possibly the most flavorful soup you'll ever try!",
+      "ingredients": ["Coconut milk", "Pumpkin", "Vegetable broth", "Garlic"],
+      "facts": {
+        "calories": "339 kcal",
+        "fat": "20 gr",
+        "protein": "6 gr",
+        "carbohydrate": "48 gr",
+        "sugar": "16 gr"
+      }
+    },
+    {
+      "id": 4,
+      "image": "/images/dishes/dish-3.jpg",
+      "alt": "Strawberry Salad",
+      "name": "Fried Tofu",
+      "description": "A delightfully unexpected salad quick marinated in maple syrup and citrus, and married with strawberries, peaches and fresh herbs, making this a lovely sweet-tart combo.",
+      "ingredients": ["Strawberries", "Lemon juice and orange", "Peaches", "Basil leaves"],
+      "facts": {
+        "calories": "222 kcal",
+        "fat": "10 gr",
+        "protein": "5 gr",
+        "carbohydrate": "33 gr",
+        "sugar": "23 gr"
+      }
     }
   ],
 
@@ -38,6 +83,69 @@
         "carbohydrate": "26 gr",
         "sugar": "20 gr"
       }
+    },
+    {
+      "id": 2,
+      "image": "/images/drinks/drink-2.jpg",
+      "alt": "Fruit Water",
+      "name": "Fruit Infused Water",
+      "description": "Stay hydrated with these easy infused water recipes. If you find plain ol' H2O to be boring, consider making a pitcher of infused water that scores a hint of flavor from fresh fruit, vegetables, and herbs.",
+      "ingredients": [
+        "Sparkling water",
+        "Mango, Raspberries, Ginger",
+        "Watermelon, Kiwi, Lime",
+        "Grapefruit, Pomegranate, Mint",
+        "Strawberry, Lemon, Basil"
+      ],
+      "facts": {
+        "calories": "14 kcal",
+        "fat": "1 gr",
+        "protein": "1 gr",
+        "carbohydrate": "4 gr",
+        "sugar": "2 gr"
+      }
+    },
+    {
+      "id": 3,
+      "image": "/images/drinks/drink-3.jpg",
+      "alt": "Ginger Mojito",
+      "name": "Ginger Beer Mojito",
+      "description": "I'ts seriously the best mixer!! It's already sweetened, it has the nice spicy kick of the ginger, and it is nice and fizzy and perfect for cool summer drinks like mojitos!",
+      "ingredients": [
+        "Ginger Beer",
+        "Light rum",
+        "Lime Juice",
+        "Mint",
+        "Sparkling water"
+      ],
+      "facts": {
+        "calories": "104 kcal",
+        "fat": "1 gr",
+        "protein": "2 gr",
+        "carbohydrate": "4 gr",
+        "sugar": "2 gr"
+      }
+    },
+    {
+      "id": 4,
+      "image": "/images/drinks/drink-4.jpg",
+      "alt": "Summer Cocktail",
+      "name": "Summer Breeze Cocktail",
+      "description": "This cocktail features tequila, Citron and triple sec along with orange juice...and a splash of grenadine to sweeten it up. Sort of a fruitier spin on a Tequila Sunrise cocktail. Try this special, you won't regret it",
+      "ingredients": [
+        "Tequila",
+        "Absolute Citron Vodka",
+        "Triple Sec",
+        "Orange Juice",
+        "Splash Grenadine"
+      ],
+      "facts": {
+        "calories": "286 kcal",
+        "fat": "1 gr",
+        "protein": "2 gr",
+        "carbohydrate": "30 gr",
+        "sugar": "25 gr"
+      }
     }
   ],
 
@@ -46,7 +154,7 @@
       "id": 1,
       "image": "/images/desserts/dessert-1.jpg",
       "alt": "Brownie with icecream",
-      "name": "Brownie with icecream",
+      "name": "Brownie with ice cream",
       "description": "Warm and fudgy with premium vanilla ice-cream melting on top, this nutty brownie is chocolate heaven.",
       "ingredients": [
         "Oat milk",
@@ -60,6 +168,69 @@
         "fat": "10 gr",
         "protein": "20 gr",
         "carbohydrate": "30 gr",
+        "sugar": "10 gr"
+      }
+    },
+    {
+      "id": 2,
+      "image": "/images/desserts/dessert-2.jpg",
+      "alt": "Caramel Cheescake",
+      "name": "Caramel Cheescake",
+      "description": "This vegan cheesecake is the best ever! It's rich and creamy and topped with a salted caramel fudge sauce. So much like the 'real thing' you will hardly believe it.",
+      "ingredients": [
+        "Coconut oil",
+        "Liemon juicer",
+        "Macadamia nuts",
+        "Vanilla extract",
+        "Raw cashews"
+      ],
+      "facts": {
+        "calories": "640 kcal",
+        "fat": "46.9 gr",
+        "protein": "9.3 gr",
+        "carbohydrate": "54.9 gr",
+        "sugar": "37 gr"
+      }
+    },
+    {
+      "id": 3,
+      "image": "/images/desserts/dessert-3.jpg",
+      "alt": "Chocolate Volcano",
+      "name": "Chocolate Volcano",
+      "description": "This is a delicious vegan-friendly version of the classic chocolate lava cake. You'll make a super simple nondairy chocolate ganache, freeze it in balls, and bake it into the center of a decadent chocolate cake.",
+      "ingredients": [
+        "Oat milk",
+        "All purpose flour",
+        "Granulated sugar",
+        "vegan-friendly chocolate chips ",
+        "fat coconut milk"
+      ],
+      "facts": {
+        "calories": "150 kcal",
+        "fat": "10 gr",
+        "protein": "20 gr",
+        "carbohydrate": "30 gr",
+        "sugar": "10 gr"
+      }
+    },
+    {
+      "id": 4,
+      "image": "/images/desserts/dessert-4.jpg",
+      "alt": "Coconut Cheescake",
+      "name": "Coconut Cheescake",
+      "description": "Meet the vegan cheesecake of your dreams. Seriously, I was blown away by how delicious this turned out! No one would guess this cheesecake is vegan. It's smooth, rich and creamy but also light in texture.",
+      "ingredients": [
+        "Vegan graham cracker crumbs",
+        "Melted coconut oil",
+        "Coconut cream",
+        "Cornstarch",
+        "Vanilla extract"
+      ],
+      "facts": {
+        "calories": "250 kcal",
+        "fat": "20 gr",
+        "protein": "20 gr",
+        "carbohydrate": "40 gr",
         "sugar": "10 gr"
       }
     }

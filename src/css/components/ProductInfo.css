@@ -1,30 +1,82 @@
 .product {
-    background-color: var(--light-gray);
+  background-color: var(--light-gray);
+}
+
+.product-hero {
+  display: flex;
+  justify-content: center;
 }
 
 .product-img {
-    width: 100%;
+  width: 230px;
+  height: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .product-title,
 .product-text,
 .ingredient-list {
-    text-align: center;
+  text-align: center;
 }
 
 .product-title {
-    margin: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 .ingredient-list {
-    list-style-type: none;
-    color: var(--brown);
+  list-style-type: none;
+  color: var(--brown);
 }
 
 .product-facts {
-    border-bottom: 1px solid var(--brown);
+  border-bottom: 1px solid var(--brown);
 }
 
 .facts-table {
-    margin: 10px 60px 0 60px;
+  margin: 10px 60px 0 60px;
 }
+
+/* Mobile M */
+@media screen and (min-width: 375px) {
+  .facts-table {
+    margin: 10px 0 10px 70px;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+  .product-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .facts-table {
+    margin: 10px 110px 0 100px;
+  }
+}
+
+/* Laptop small*/
+@media screen and (min-width: 1024px) {
+  .product-img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .facts-table {
+    margin: 10px 0 0 135px;
+  }
+}
+
+/* Laptop medium*/
+@media screen and (min-width: 1280px) {
+  .facts-table {
+    margin: 10px 0 0 115px;
+  }
+}
+
+/* Laptop big*/
+@media screen and (min-width: 1440px) {
+    .facts-table {
+      margin: 10px 0 0 90px;
+    }
+  }

@@ -64,10 +64,3 @@
     --space-big: 350px;
   }
 }
-
-/* Laptop extra large */
-@media screen and (min-width: 1920px) {
-  :root {
-    --space-big: 550px;
-  }
-}

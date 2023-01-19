@@ -63,7 +63,9 @@ td, li {
   p,
   a,
   button,
-  input {
+  input,
+  td,
+  li {
     font-size: 16px;
   }
 }
