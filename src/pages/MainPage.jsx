@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
@@ -18,7 +19,9 @@ export default function MainPage() {
       <div className="option-description">
         <h2>{item.title}</h2>
         <p>{item.description}</p>
-        <a href={item.href}>{item.text}</a>
+        <Link to={item.href}>
+          {item.text}
+        </Link>
       </div>
     </li>
   ));
