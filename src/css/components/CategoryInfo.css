@@ -79,11 +79,16 @@
     height: 245px;
   }
 
-  .category-option,
+  .category-option {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
   .category-hero {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
 
   .category-hero > h1 {
