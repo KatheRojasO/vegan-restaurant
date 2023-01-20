@@ -124,6 +124,10 @@ body {
     padding: 120px var(--space-big) 0 var(--space-big);
   }
 
+  .category-hero {
+    padding-top: 120px;
+  }
+
   .product-container {
     padding: 10px 200px 30px 200px;
   }
@@ -135,7 +139,7 @@ body {
   .bg-1 {
     width: 150px;
     height: 80px;
-    transform: translate(140%, -90%);
+    transform: translate(130%, -90%);
   }
 
   .bg-2 {
@@ -164,13 +168,13 @@ body {
   }
 
   .container {
-    padding: 150px var(--space-big) 100px var(--space-big);
+    padding: 130px var(--space-big) 100px var(--space-big);
   }
 
   .bg-1 {
     width: 170px;
     height: 100px;
-    transform: translate(170%, -105%);
+    transform: translate(160%, -105%);
   }
 
   .bg-2 {
@@ -199,7 +203,7 @@ body {
   }
 
   .bg-1 {
-    transform: translate(190%, -105%);
+    transform: translate(180%, -105%);
   }
 
   .bg-2 {
@@ -222,6 +226,6 @@ body {
   }
 
   .container {
-    padding: 150px var(--space-big) 100px var(--space-big);
+    padding: 130px var(--space-big) 100px var(--space-big);
   }
 }

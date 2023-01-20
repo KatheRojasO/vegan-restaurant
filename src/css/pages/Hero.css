@@ -20,20 +20,20 @@
 }
 
 .title-1 {
-  transform: translate(-80%, 350%);
+  transform: translate(-80%, 430%);
 }
 
 .title-2 {
-  transform: translate(-20%, 420%);
+  transform: translate(-20%, 500%);
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
   .title-1 {
-    transform: translate(-80%, 220%);
+    transform: translate(-80%, 270%);
   }
 
   .title-2 {
-    transform: translate(-20%, 290%);
+    transform: translate(-20%, 340%);
   }
 }
