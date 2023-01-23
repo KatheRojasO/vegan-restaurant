@@ -5,40 +5,22 @@ import Category from "./pages/Category";
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 
+// good
 export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
+          {/* naming -1 name can be either category or name and with that it fits in 1 line! */}
+          {/* naming -1 rename MainPage to Home as is the custom name for the first page */}
           <Route path="/" element={<MainPage />} />
-          <Route
-            path="/dishes"
-            element={<Category categoryName={"dishes"} />}
-          />
-          <Route
-            path="/drinks"
-            element={<Category categoryName={"drinks"} />}
-          />
-          <Route
-            path="/desserts"
-            element={<Category categoryName={"desserts"} />}
-          />
-          <Route
-            path="/contact"
-            element={<Contact categoryName={"contact"} />}
-          />
-          <Route
-            path="/dishes/:id"
-            element={<Product categoryName={"dishes"} />}
-          />
-          <Route
-            path="/drinks/:id"
-            element={<Product categoryName={"drinks"} />}
-          />
-          <Route
-            path="/desserts/:id"
-            element={<Product categoryName={"desserts"} />}
-          />
+          <Route path="/dishes" element={<Category name={"dishes"} />} />
+          <Route path="/drinks" element={<Category name={"drinks"} />} />
+          <Route path="/desserts" element={<Category name={"desserts"} />} />
+          <Route path="/contact" element={<Contact name={"contact"} />} />
+          <Route path="/dishes/:id" element={<Product name={"dishes"} />} />
+          <Route path="/drinks/:id" element={<Product name={"drinks"} />} />
+          <Route path="/desserts/:id" element={<Product name={"desserts"} />} />
         </Routes>
       </BrowserRouter>
     </div>
