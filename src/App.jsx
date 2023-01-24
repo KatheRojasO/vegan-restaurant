@@ -13,6 +13,7 @@ export default function App() {
         <Routes>
           {/* naming -1 name can be either category or name and with that it fits in 1 line! */}
           {/* naming -1 rename MainPage to Home as is the custom name for the first page */}
+          {/* note that you have hardcoded routes. If i edit the category json, i need to manually add more routes here */}
           <Route path="/" element={<MainPage />} />
           <Route path="/dishes" element={<Category name={"dishes"} />} />
           <Route path="/drinks" element={<Category name={"drinks"} />} />
