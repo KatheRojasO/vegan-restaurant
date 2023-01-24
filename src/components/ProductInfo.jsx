@@ -8,6 +8,7 @@ export default function ProductInfo({ product }) {
     <li className="ingredient-list">{ingredient}</li>
   ));
 
+  // naming -1 why everything is called product- something, just use title, text, facts, containter, img, hero, etc
   return (
     <div className="product">
       <div className="product-hero">

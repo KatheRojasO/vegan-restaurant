@@ -6,6 +6,7 @@ import copyIcon from "../assets/icons/copyright_icon.png";
 export default function Footer() {
   return (
     <footer id="footer">
+      {/* this div is not needed, grid place item centers do the same on footer */}
       <div className="container-footer">
         <div className="social-media">
           <img src={instagramIcon} alt="instagram-icon" />

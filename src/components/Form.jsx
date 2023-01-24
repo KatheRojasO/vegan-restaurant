@@ -4,6 +4,8 @@ import data from "../jsonFiles/form.json";
 export default function Form() {
   const [inputs, setInputs] = useState({});
 
+  // Don't use const for functions -1
+  // check this video why: https://www.youtube.com/watch?v=5iGGvJn8K1U (check the first 3 min)
   const handleChange = (event) => {
     const name = event.target.name;
     const value = event.target.value;
@@ -25,16 +27,17 @@ export default function Form() {
     );
   };
 
+  // minimize HTML tags, return just the input
   const inputItem = data.map((item) => (
-    <li className="input-fields" key={item.id}>
-      <input
-        type={item.type}
-        name={item.name}
-        placeholder={item.placeholder}
-        value={inputs.name}
-        onChange={handleChange}
-      />
-    </li>
+    <input
+      className="input-fields"
+      key={item.id}
+      type={item.type}
+      name={item.name}
+      placeholder={item.placeholder}
+      value={inputs.name}
+      onChange={handleChange}
+    />
   ));
 
   return (

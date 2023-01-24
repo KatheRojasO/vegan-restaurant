@@ -11,6 +11,12 @@ import img4 from "../assets/img/background-image-4.png";
 
 // rename to Home
 export default function MainPage() {
+  // note: the "invert" should not be on the json as json only has information.
+  // the invert is a presentational style and should sorely handled on CSS
+  // nice c
+  /**
+   * Note: the "invert" should not be on the json as json only has information.
+   */
   const items = data.categories.map((item) => (
     <li
       className={item.invert ? "menu-option-right" : "menu-option-left"}
@@ -30,7 +36,6 @@ export default function MainPage() {
       <Header />
       <Hero />
       <div className="container">
-        {/* Hard coded data -1 */}
         <img src={img1} className="bg-1" alt="" />
         <img src={img2} className="bg-2" alt="" />
         <img src={img3} className="bg-3" alt="" />
