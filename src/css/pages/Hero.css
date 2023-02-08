@@ -27,13 +27,32 @@
   transform: translate(-20%, 500%);
 }
 
-/* Tablet */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 30rem) {
+  .title-1 {
+    transform: translate(-80%, 400%);
+  }
+
+  .title-2 {
+    transform: translate(-20%, 470%);
+  }
+}
+
+@media screen and (min-width: 42rem) {
+  .title-1 {
+    transform: translate(-80%, 300%);
+  }
+
+  .title-2 {
+    transform: translate(-20%, 370%);
+  }
+}
+
+@media screen and (min-width: 60rem) {
   .title-1 {
     transform: translate(-80%, 270%);
   }
 
   .title-2 {
-    transform: translate(-20%, 340%);
+    transform: translate(-20%, 330%);
   }
 }

@@ -43,7 +43,7 @@ input[type="submit"]:focus {
 }
 
 /* Mobile L */
-@media screen and (min-width: 425px) {
+/* @media screen and (min-width: 425px) {
   input[type="text"],
   [type="date"],
   [type="time"] {
@@ -56,4 +56,4 @@ input[type="submit"]:focus {
     padding: 10px 10px;
     margin: var(--space-small) 0 var(--space-medium) 50px;
   }
-}
+} */

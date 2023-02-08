@@ -1,5 +1,6 @@
 #footer {
   background-color: var(--black);
+  width: 100%;
 }
 
 .social-media,
@@ -26,8 +27,7 @@
   margin-left: 5px;
 }
 
-/* Mobile M */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 30rem) {
   .social-media img {
     width: 25px;
     height: 25px;

@@ -26,7 +26,7 @@
 }
 
 /* Mobile M */
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .bg-img {
     width: 115px;
     height: 65px;
@@ -37,10 +37,10 @@
     height: 240px;
     margin: 40px 0 5px 5px;
   }
-}
+} */
 
 /* Mobile L */
-@media screen and (min-width: 425px) {
+/* @media screen and (min-width: 425px) {
   .bg-img {
     width: 115px;
     height: 65px;
@@ -51,10 +51,10 @@
     height: 270px;
     margin: 40px 0 10px 5px;
   }
-}
+} */
 
 /* Tablet */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .bg-img {
     width: 150px;
     height: 80px;
@@ -71,4 +71,4 @@
     height: 300px;
     margin: 20px 0 0 10px;
   }
-}
+} */

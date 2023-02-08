@@ -19,9 +19,7 @@ export default function MainPage() {
       <div className="option-description">
         <h2>{item.title}</h2>
         <p>{item.description}</p>
-        <Link to={item.href}>
-          {item.text}
-        </Link>
+        <Link to={item.href}>{item.text}</Link>
       </div>
     </li>
   ));
@@ -31,10 +29,6 @@ export default function MainPage() {
       <Header />
       <Hero />
       <div className="container">
-        <img src={img1} className="bg-1" alt="" />
-        <img src={img2} className="bg-2" alt="" />
-        <img src={img3} className="bg-3" alt="" />
-        <img src={img4} className="bg-4" alt="" />
         <p className="page-description">{data.description}</p>
         {items}
       </div>

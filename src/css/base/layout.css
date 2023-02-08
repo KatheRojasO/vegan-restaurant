@@ -16,6 +16,9 @@ body {
 
 .container {
   padding: var(--space-big);
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .product-container {
@@ -41,7 +44,8 @@ body {
 .bg-1 {
   width: 101px;
   height: 50px;
-  transform: translate(80%, -50%);
+  top: 10px;
+  left: 110px;
 }
 
 .bg-2 {
@@ -62,8 +66,25 @@ body {
   transform: translate(269%, 505%);
 }
 
+@media screen and (min-width: 30rem) {
+  .container {
+    padding: var(--space-medium) var(--space-xxbig) var(--space-big);
+  }
+}
+
+@media screen and (min-width: 42rem) {
+  .container {
+    padding: var(--space-medium) var(--space-big) var(--space-big);
+  }
+}
+
+
+
+  
+
+
 /* Mobile M */
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .container-footer {
     padding: 32px;
   }
@@ -89,10 +110,10 @@ body {
   .bg-4 {
     transform: translate(300%, 490%);
   }
-}
+} */
 
 /* Mobile L */
-@media screen and (min-width: 425px) {
+/* @media screen and (min-width: 425px) {
   .bg-1 {
     width: 125px;
     height: 75px;
@@ -116,10 +137,10 @@ body {
     height: 183px;
     transform: translate(250%, 590%);
   }
-}
+} */
 
 /* Tablet */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .product-hero {
     padding: 120px var(--space-big) 0 var(--space-big);
   }
@@ -159,10 +180,10 @@ body {
     height: 193px;
     transform: translate(490%, 450%);
   }
-}
+} */
 
 /* Laptop small*/
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .product-container {
     padding: 10px 300px 30px 300px;
   }
@@ -194,10 +215,10 @@ body {
     height: 223px;
     transform: translate(550%, 350%);
   }
-}
+} */
 
 /* Laptop medium*/
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .product-container {
     padding: 10px 450px 30px 450px;
   }
@@ -217,10 +238,10 @@ body {
   .bg-4 {
     transform: translate(570%, 350%);
   }
-}
+} */
 
 /* Laptop Big*/
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .product-container {
     padding: 10px 550px 30px 550px;
   }
@@ -228,4 +249,4 @@ body {
   .container {
     padding: 130px var(--space-big) 100px var(--space-big);
   }
-}
+} */

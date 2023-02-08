@@ -47,15 +47,21 @@ li {
   font-size: 14px;
 }
 
-/* Mobile M */
-@media screen and (min-width: 375px) {
+.option-description > a {
+  color: var(--brown);
+}
+
+.page-description {
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 30rem) {
   h1 {
     font-size: 40px;
   }
-}
 
-/* Mobile L */
-@media screen and (min-width: 425px) {
   h2 {
     font-size: 24px;
   }
@@ -70,13 +76,11 @@ li {
   }
 }
 
-/* tablets */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 42rem) {
   h1 {
     font-size: 60px;
   }
+}
 
-  h2 {
-    padding-top: 15px;
-  }
+@media screen and (min-width: 60rem) {
 }
