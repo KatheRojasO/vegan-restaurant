@@ -76,12 +76,15 @@ body {
   .container {
     padding: var(--space-medium) var(--space-big) var(--space-big);
   }
+
+  #category-info .container {
+    padding: var(--space-medium) var(--space-xxxbig) var(--space-big);
+  }
+
+  .category-hero {
+    padding-top: 120px;
+  }
 }
-
-
-
-  
-
 
 /* Mobile M */
 /* @media screen and (min-width: 375px) {
