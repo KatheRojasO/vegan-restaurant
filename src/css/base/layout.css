@@ -22,7 +22,9 @@ body {
 }
 
 .product-container {
-  padding: 10px var(--space-big) 30px var(--space-big);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px var(--space-xbig) 30px var(--space-big);
 }
 
 .container-footer {
@@ -83,6 +85,16 @@ body {
 
   .category-hero {
     padding-top: 120px;
+  }
+
+  .product-container {
+    padding: 10px var(--space-xxxbig) 30px var(--space-xxxbig);
+  }
+}
+
+@media screen and (min-width: 42rem) {
+  .product-container {
+    padding: 10px 96px 30px 96px;
   }
 }
 
