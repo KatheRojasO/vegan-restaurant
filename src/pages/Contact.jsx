@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Form from "../components/Form";
+import Map from "../components/Map";
 import Footer from "../components/Footer";
 import data from "../jsonFiles/contact.json";
 import img1 from "../assets/img/background-image-1.png";
@@ -17,7 +18,7 @@ export default function Contact() {
       <h2>Address</h2>
       <p>{item.address}</p>
       <p>{item.city}</p>
-      <img className="map" src={item.map} alt="map"></img>
+      <Map latitude={59.333871} longitude={18.0584947}/>
     </div>
   ));
 
@@ -25,6 +26,7 @@ export default function Contact() {
     <div id="contact">
       <Header />
       <div className="container">{items}</div>
+      
       <Footer />
     </div>
   );
