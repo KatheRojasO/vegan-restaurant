@@ -48,22 +48,5 @@
 @media screen and (min-width: 42rem) {
   .product-text {
     padding: 0 56px;
-   
   }
 }
-
-/* Tablets */
-/* @media screen and (min-width: 768px) {
-  .product-img {
-    width: 300px;
-    height: 300px;
-  }
-} */
-
-/* Laptop small*/
-/* @media screen and (min-width: 1024px) {
-  .product-img {
-    width: 400px;
-    height: 400px;
-  }
-} */
